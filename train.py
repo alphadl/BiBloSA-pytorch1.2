@@ -11,7 +11,6 @@ from model.model import NN4SNLI
 from model.data import SNLI
 from test import test
 
-
 def train(args, data):
     model = NN4SNLI(args, data)
     if args.gpu > -1:
